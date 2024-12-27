@@ -4,10 +4,10 @@
 </script>
 
 <div class="space-y-2">
-    <RoundedIcon href="https://www.instagram.com/jonas_ebert" icon={faInstagram} target="_blank" />
-    <RoundedIcon href="https://www.threads.net/@jonas_ebert" icon={faThreads} target="_blank" />
-    <RoundedIcon href="https://www.youtube.com/@jonas_ebert" icon={faYoutube} target="_blank" />
-    <RoundedIcon href="https://www.tiktok.com/@jonas.ebert3" icon={faTiktok} target="_blank" />
-    <RoundedIcon href="https://www.linkedin.com/in/jonasebert" icon={faLinkedinIn} target="_blank" />
-    <RoundedIcon href="https://github.com/jonasebert/" icon={faGithub} target="_blank" />
+    <RoundedIcon href="https://www.instagram.com/jonaebertbs" icon={faInstagram} target="_blank" />
+    <RoundedIcon href="https://www.threads.net/@jonaebertbs" icon={faThreads} target="_blank" />
+    <RoundedIcon href="https://www.youtube.com/@jonaebert" icon={faYoutube} target="_blank" />
+    <RoundedIcon href="https://www.tiktok.com/@jona_ebert" icon={faTiktok} target="_blank" />
+    <RoundedIcon href="https://www.linkedin.com/in/jonaebert" icon={faLinkedinIn} target="_blank" />
+    <RoundedIcon href="https://github.com/jonaebert" icon={faGithub} target="_blank" />
 </div>

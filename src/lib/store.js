@@ -2,8 +2,8 @@
 import { page } from "$app/stores"; // Values: https://developer.mozilla.org/en-US/docs/Web/API/URL
 
 // Personal
-export const name       = 'Jonas Ebert';
-export const pronouns   = 'xier/xies';
+export const name       = 'Jona Ebert';
+export const pronouns   = 'they/them';
 export const job        = 'Systemadministrator';
 export const address = {
     street: 'Postfach 5835',
@@ -12,9 +12,8 @@ export const address = {
     country: 'Deutschland'
 };
 export const contact = {
-    tel: '+49 5307 9402 831',
     fax: '+49 3222 5002 428',
-    mail: 'contact@jonasebert.de',
+    mail: 'kontakt@jonaebert.de',
     web: '/contact'
 }
 

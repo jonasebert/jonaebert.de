@@ -196,7 +196,7 @@
 				<p>&copy; 2023 - {currentYear} {name}</p>
 				<p>
 					Made with <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a>,
-					<a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>
+					<a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
 					hosted on <a href="https://vercel.com/" target="_blank">Vercel</a>
 				</p>
 			</div>
