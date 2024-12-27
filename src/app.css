@@ -1,0 +1,35 @@
+/* Import der Schriftart */
+@import url(/fonts/fonts.css);
+
+/* Tailwind CSS Direktiven */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Grundlegende Stile */
+body {
+	@apply text-je-luminous-mondlicht;
+}
+
+/* Container für den Inhalt mit Abstand */
+.container {
+	padding-left: 5%;
+	padding-right: 5%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/* Link-Stile */
+a:hover {
+	@apply text-je-magical-sonnenglanz;
+}
+
+/* Styles for Privacy */
+@media print {
+	.ms-editor-squiggles-container {
+		display: none !important;
+	}
+}
+.ms-editor-squiggles-container {
+	all: initial;
+}
