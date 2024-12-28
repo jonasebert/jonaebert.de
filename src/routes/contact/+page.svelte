@@ -67,11 +67,11 @@
             </div>
             <div class="bg-je-mystical-nachtblau-900 p-5 rounded-lg col-start-1 row-start-2 md:col-start-2 md:row-start-1 transform rotate-3 md:rotate-3 md:translate-x-10 md:translate-y-4">
                 <h2 class="text-4xl font-semibold text-je-magical-fata_morgana my-2 font-poppins">E-Mail</h2>
-                <a href="mailto:contact@jonasebert.de" class="font-montserrat">contact@jonasebert.de</a>
+                <a href="mailto:kontakt@jonaebert.de" class="font-montserrat">kontakt@jonaebert.de</a>
             </div>
             <div class="bg-je-mystical-nachtblau-900 p-5 rounded-lg col-start-1 row-start-3 md:row-start-2 transform -rotate-3 md:rotate-3 md:translate-y-16">
                 <h2 class="text-4xl font-semibold text-je-magical-fata_morgana my-2 font-poppins">Post</h2>
-                <p class="font-montserrat">Jonas Ebert<br>Postfach 5835<br>38049 Braunschweig<br>Deutschland</p>
+                <p class="font-montserrat">{name}<br>Postfach 5835<br>38049 Braunschweig<br>Deutschland</p>
             </div>
             <div class="bg-je-mystical-nachtblau-900 p-5 rounded-lg col-start-1 row-start-4 md:col-start-2 md:row-start-2 transform rotate-6 md:-rotate-2 md:translate-y-8">
                 <h2 class="text-4xl font-semibold text-je-magical-fata_morgana my-2 font-poppins">Fax</h2>

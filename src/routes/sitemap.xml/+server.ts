@@ -1,7 +1,7 @@
 // Imports
 import { apiDomain } from '$lib/store.js';
 
-const site = 'https://jonasebert.de';
+const site = 'https://jonaebert.de';
 
 // Non dynamic pages
 const pages_10 = [
