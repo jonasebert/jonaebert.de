@@ -1,22 +1,38 @@
 <script lang="ts">
-    import { name } from "$lib/store";
+    import { contact, name } from "$lib/store";
     import Social from "$lib/components/blocks/Social.svelte";
 
     let response: any;
     let status: number = 999;
     let submitting = false;
 
+    import { apiDomain } from '$lib/store';
+
     async function submitForm(data) {
-        submitting = true;
-        const formData = new FormData(data.currentTarget);
-        const res = await fetch("/api/contact", {
-            method: "POST",
-            body: formData
-        });
-        response = await res.json();
-        status = res.status;
-        submitting = false;
-    };
+    try {
+        submitting = true
+        const formData = new FormData(data.currentTarget)
+
+        const privacy = formData.get('privacy')
+        const name = formData.get('name')
+        const pronouns = formData.get('pronouns')
+        const email = formData.get('email')
+        const message = formData.get('message')
+
+        if (privacy == 'true') {
+            const contactRes = await fetch(`https://${apiDomain}/api?action=contactForm&privacy=${privacy}&name=${name}&pronouns=${pronouns}&email=${email}&message=${message}`, {
+                method: "POST",
+            })
+            response = await contactRes.json()
+            status = contactRes.status
+            submitting = false
+        } else {
+
+        }
+    } catch (error) {
+        console.error('Error fetching posts:', error);
+    }
+    }
 </script>
 
 <svelte:head>
@@ -43,6 +59,7 @@
                 <h2 class="text-4xl font-semibold text-je-magical-fata_morgana my-2 font-poppins">Kontaktformular</h2>
                 <form class="flex flex-col gap-3 font-montserrat" on:submit|preventDefault={submitForm}>
                     <input class="border-2 border-je-mystical-schwarzgruen-500 bg-transparent p-2 rounded-lg" type="text" name="name" placeholder="Name" required disabled={submitting}>
+                    <input class="border-2 border-je-mystical-schwarzgruen-500 bg-transparent p-2 rounded-lg" type="text" name="pronouns" placeholder="Pronomen" disabled={submitting}>
                     <input class="border-2 border-je-mystical-schwarzgruen-500 bg-transparent p-2 rounded-lg" type="email" name="email" placeholder="E-Mail" required disabled={submitting}>
                     <textarea class="border-2 border-je-mystical-schwarzgruen-500 bg-transparent p-2 rounded-lg" name="message" id="message" placeholder="Deine Nachricht" rows="4" maxlength="300" required disabled={submitting}></textarea>
                     <label for="message" class="text-xs">Maximal 300 Zeichen</label>
