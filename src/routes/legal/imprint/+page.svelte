@@ -71,24 +71,32 @@
         <table>
             <tbody>
                 <tr>
-                    <td>BlueSky</td>
-                    <td>@jonasebert.bsky.social</td>
+                    <td>Facebook</td>
+                    <td>@jonaebertbs</td>
+                </tr>
+                <tr>
+                    <td>GitHub</td>
+                    <td>@jonaebert</td>
                 </tr>
                 <tr>
                     <td>Instagram</td>
-                    <td>@jonas_ebert</td>
+                    <td>@jonaebertbs</td>
+                </tr>
+                <tr>
+                    <td>LinkedIn</td>
+                    <td>@jonaebert</td>
+                </tr>
+                <tr>
+                    <td>TikTok</td>
+                    <td>@jona_ebert</td>
                 </tr>
                 <tr>
                     <td>Threads</td>
-                    <td>@jonas_ebert</td>
-                </tr>
-                <tr>
-                    <td>X (Twitter)</td>
-                    <td>@jonas_ebert</td>
+                    <td>@jonaebertbs</td>
                 </tr>
                 <tr>
                     <td>YouTube</td>
-                    <td>@jonas_ebert</td>
+                    <td>@jonaebert</td>
                 </tr>
             </tbody>
         </table>

@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /api/
 Allow: /
 
-Sitemap: https://jonasebert.de/sitemap.xml
+Sitemap: https://jonaebert.de/sitemap.xml
