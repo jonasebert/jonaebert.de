@@ -81,7 +81,7 @@
             <h2 class="text-4xl font-semibold text-je-magical-fata_morgana my-2 font-poppins">Kontaktformular</h2>
             <form class="flex flex-col gap-3 font-montserrat" on:submit={submitForm}>
                 <div class="relative">
-                    <input type="name" id="name" class="block px-2.5 pb-2.5 pt-4 w-full bg-transparent rounded-lg border-2 border-je-mystical-schwarzgruen-500 appearance-none focus:border-je-mystical-waldtiefe-500 focus:outline-none focus:ring-0 peer" placeholder=" " required disabled={disable(submitting)} />
+                    <input type="name" name="name" id="name" class="block px-2.5 pb-2.5 pt-4 w-full bg-transparent rounded-lg border-2 border-je-mystical-schwarzgruen-500 appearance-none focus:border-je-mystical-waldtiefe-500 focus:outline-none focus:ring-0 peer" placeholder=" " required disabled={disable(submitting)} />
                     <label for="name" class="absolute duration-300 transform -translate-y-4 scale-75 top-2 origin-[0] bg-je-mystical-nachtblau-900 px-2 peer-focus:px-2 peer-focus:text-je-magical-korallenriff peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1 cursor-text peer-focus:cursor-default">Name *</label>
                 </div>
                 <div class="relative">
