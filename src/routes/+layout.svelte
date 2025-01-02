@@ -1,7 +1,8 @@
 <script lang="ts">
 	// Importe
-	import Social from '$lib/components/blocks/Social.svelte';
 	import '../app.css';
+	import Social from '$lib/components/blocks/Social.svelte';
+	import Ticker from '$lib/components/blocks/Ticker.svelte';
 
 	//Vercel Speed Insights
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
@@ -127,6 +128,10 @@
 	</div>
 </header>
 
+<div class="z-30">
+	<Ticker />
+</div>
+
 {#if isVisible}
 	<div class="z-50 fixed bottom-4 right-4">
 		<button
@@ -188,7 +193,9 @@
 				{/each}
 			</div>
 		</div>
-		<div class="bg-je-mystical-nachtblau-900 flex flex-col justify-center items-center text-center gap-5 py-6 px-5 container">
+		<div
+			class="bg-je-mystical-nachtblau-900 flex flex-col justify-center items-center text-center gap-5 py-6 px-5 container"
+		>
 			<div>
 				<Social />
 			</div>
