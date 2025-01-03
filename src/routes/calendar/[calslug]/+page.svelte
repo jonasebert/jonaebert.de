@@ -1,6 +1,6 @@
 <script lang="ts">
     import InfoMessage from '$lib/components/blocks/InfoMessage.svelte';
-    import { name } from '$lib/store';
+    import { apiDomain, name } from '$lib/store';
 	import { FormatDate } from '$lib/util/date';
 
     export let data;
@@ -125,7 +125,7 @@
                                     class="flex flex-row items-center bg-je-mystical-schwarzgruen-500 hover:bg-je-mystical-schwarzgruen-700 text-white hover:text-je-magical-sonnenglanz font-bold py-2 px-4 rounded-lg w-full sm:w-auto"
                                     on:click={async () => {
                                         try {
-                                            const response = await fetch(`https://api.jonasebert.de/api?type=calendar&itemtype=single&id=${event.id}&download=true`);
+                                            const response = await fetch(`https://${apiDomain}/api?type=calendar&itemtype=single&id=${event.id}&download=true`);
 
                                             if (response.ok) {
                                                 const blob = await response.blob();
