@@ -21,7 +21,7 @@ export const contact = {
 export const uri = page;
 
 // API
-export const apiDomain = 'api.jonasebert.de';
+export const apiDomain = 'api.jonaebert.de';
 // export const apiSecret = process.env.JONA_EBERT_API_SECRET === '' ? '1234' : '';
 
 // Pictures
