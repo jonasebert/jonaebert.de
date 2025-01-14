@@ -7,6 +7,7 @@ export const load = () => {
                     { key: 'work_experience', title: 'Berufserfahrung' },
                     { key: 'education', title: 'Ausbildung' },
                     { key: 'volunteer', title: 'Ehrenamt' },
+                    { key: 'fellowships', title: 'Mitgliedschaften' },
                     { key: 'skills', title: 'Kompetenzen' }
                 ]
             },
@@ -115,7 +116,10 @@ export const load = () => {
                         company: 'BÜNDNIS 90/DIE GRÜNEN Braunschweig',
                         start: '2023-11',
                         end: '',
-                        description: [],
+                        description: [
+                            'Planung von Sitzungsterminen',
+                            'Einladen zu Sitzungsterminen',
+                        ],
                         skills: [],
                         image: 'logo_gruene.svg',
                         bgcolor: 'bg-gruene-tanne',
@@ -131,7 +135,53 @@ export const load = () => {
                         image: 'logo_gruene.svg',
                         bgcolor: 'bg-gruene-tanne',
                         link: 'https://gruene-braunschweig.de',
-                    }
+                    },
+                    {
+                        title: 'Koordination Plakate BTW 2025',
+                        company: 'BÜNDNIS 90/DIE GRÜNEN Braunschweig',
+                        start: '2024-11',
+                        end: '2025-02',
+                        description: ['Koordination Plakate für Braunschweig innerhalb des Wahklkampfteams der Bundestagswwahl 2025'],
+                        skills: [],
+                        image: 'logo_gruene.svg',
+                        bgcolor: 'bg-gruene-tanne',
+                        link: 'https://gruene-braunschweig.de',
+                    },
+                ],
+                fellowships: [
+                    {
+                        title: 'BÜNDNIS 90/DIE GRÜNEN',
+                        // company: 'BÜNDNIS 90/DIE GRÜNEN Braunschweig',
+                        start: '2022-11',
+                        end: '',
+                        description: [],
+                        skills: [],
+                        image: 'logo_gruene.svg',
+                        bgcolor: 'bg-gruene-tanne',
+                        link: 'https://www.gruene.de',
+                    },
+                    {
+                        title: 'GRÜNE JUGEND',
+                        // company: 'BÜNDNIS 90/DIE GRÜNEN Braunschweig',
+                        start: '2022-11',
+                        end: '',
+                        description: [],
+                        skills: [],
+                        image: 'logo_gruene_jugend.png',
+                        bgcolor: 'bg-gruene-jugend-hellgruen',
+                        link: 'https://gruene-jugend.de',
+                    },
+                    {
+                        title: 'NABU',
+                        // company: 'BÜNDNIS 90/DIE GRÜNEN Braunschweig',
+                        start: '2025-01',
+                        end: '',
+                        description: [],
+                        skills: [],
+                        image: 'logo_nabu.jpg',
+                        bgcolor: 'bg-white',
+                        link: 'https://gruene-jugend.de',
+                    },
                 ],
                 skills: [
                     {
@@ -155,10 +205,6 @@ export const load = () => {
                         category: 'Sprachen',
                         skills: [ 'Deutsch (Muttersprache)', 'Englisch (B1)' ]
                     },
-                    {
-                        category: 'Mitgliedschaften',
-                        skills: [ 'BÜNDNIS 90/DIE GRÜNEN - seit 2022', 'GRÜNE JUGEND - seit 2022' ]
-                    }
                 ]
             }
         }
